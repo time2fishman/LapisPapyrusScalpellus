@@ -1,0 +1,48 @@
+/* 
+Colors:
+  main-heading-text: #580b0b
+  main-body-text: #330505
+  button-background: #580b0b
+  button-border: white
+
+
+Fonts:
+  main-heading-text: 'IM Fell English SC'
+  main-body-text: 'Courier New'
+  button-text: 'IM Fell English SC'
+*/
+
+body {
+  text-align: center;
+  background-color: bisque;
+  color: #330505;
+}
+
+#main-heading {
+  color: #580b0b;
+  font-family: 'IM Fell English SC';
+  font-size: 64px;
+  border-bottom: 3px solid #580b0b;
+  padding-bottom: 20px;
+}
+
+.buttons {
+  padding: 10px 0px 30px 0px;
+}
+
+#lapis-button,
+#papyrus-button,
+#scalpellus-button {
+  background-color: #580b0b;
+  border-radius: 10%;
+  color: bisque;
+  border-color: white;
+  border-width: 7px;
+  font-family: 'IM Fell English SC';
+}
+
+#lapis-button:hover,
+#papyrus-button:hover,
+#scalpellus-button:hover {
+  opacity: 85%;
+}
